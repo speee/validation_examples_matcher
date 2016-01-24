@@ -7,8 +7,8 @@ RSpec.describe 'be_valid_on matcher' do
 
   let(:match_block) { matchers.match_blocks[:be_valid_on] }
   let(:chain_blocks) { matchers.chain_blocks[:be_valid_on] }
-  let(:with_chain_block) { chain_blocks&.[](:with) }
-  let(:on_context_chain_block) { chain_blocks&.[](:on_context) }
+  let(:with_chain_block) { chain_blocks[:with] }
+  let(:on_context_chain_block) { chain_blocks[:on_context] }
   let(:failure_message_block) { matchers.failure_message_blocks[:be_valid_on] }
 
   it 'is registered with match block' do
