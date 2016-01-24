@@ -1,13 +1,5 @@
 require 'spec_helper'
 
-class TestModel
-  include ActiveModel::Model
-
-  attr_accessor :attr
-  validates :attr, presence: true
-  validates :attr, length: { maximum: 4 }, on: :a_context
-end
-
 RSpec.describe TestModel do
   subject { TestModel.new }
 
