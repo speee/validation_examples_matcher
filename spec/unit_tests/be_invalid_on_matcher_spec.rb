@@ -59,7 +59,6 @@ RSpec.describe 'be_invalid_on matcher' do
     end
   end
 
-
   it 'is registered with failure_message block' do
     expect(failure_message_block).to be_kind_of(Proc)
   end

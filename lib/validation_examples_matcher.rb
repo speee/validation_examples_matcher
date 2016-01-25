@@ -1,4 +1,4 @@
-require "validation_examples_matcher/version"
+require 'validation_examples_matcher/version'
 require 'rspec/expectations'
 
 module ValidationExamplesMatcher
