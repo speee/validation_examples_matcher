@@ -82,6 +82,7 @@ RSpec.define MyModel do
   it { is_expected.to be_invalid_on(:name).with('') }
   it { is_expected.to be_valid_on(:name).with('my name') }
 
+  it { is_expected.to be_valid_on(:name).with('4cha').on_context(:create) }
   it { is_expected.to be_invalid_on(:name).with('5char').on_context(:create) }
 end
 ```
