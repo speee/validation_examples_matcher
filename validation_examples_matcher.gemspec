@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.11'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'simplecov', '>= 0.11.1', '< 0.12.0'
   spec.add_development_dependency 'activemodel', '~> 4.2.5'
   spec.add_development_dependency 'pry-byebug', '~> 3.3.0'
   spec.add_development_dependency 'rubocop', '>= 0.36.0', '< 0.37.0'
