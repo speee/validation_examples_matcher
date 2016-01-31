@@ -87,6 +87,10 @@ RSpec.define MyModel do
 end
 ```
 
+## Changelog
+
+see [CHANGELOG.md](./CHANGELOG.md)
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/nisshiee/validation_examples_matcher.
