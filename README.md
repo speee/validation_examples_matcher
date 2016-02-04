@@ -38,7 +38,7 @@ Let me show how to use ValidationExamplesMatcher in case of following model.
 ```ruby
 class MyModel < ActiveRecord::Base
   validates :name, presence: true
-  validates :name, length: { maxmum: 4 }, on: :create
+  validates :name, length: { maximum: 4 }, on: :create
 end
 ```
 
