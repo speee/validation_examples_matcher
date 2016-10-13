@@ -1,6 +1,6 @@
 # ValidationExamplesMatcher
 
-[![Build Status](https://travis-ci.org/nisshiee/validation_examples_matcher.svg?branch=master)](https://travis-ci.org/nisshiee/validation_examples_matcher)
+[![Build Status](https://travis-ci.org/speee/validation_examples_matcher.svg?branch=master)](https://travis-ci.org/speee/validation_examples_matcher)
 
 ValidationExamplesMatcher supports writing rails model's validation specs.
 
@@ -93,7 +93,7 @@ see [CHANGELOG.md](./CHANGELOG.md)
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/nisshiee/validation_examples_matcher.
+Bug reports and pull requests are welcome on GitHub at https://github.com/speee/validation_examples_matcher.
 
 
 ## License
