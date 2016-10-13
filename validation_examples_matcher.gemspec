@@ -5,7 +5,7 @@ require 'validation_examples_matcher/version'
 Gem::Specification.new do |spec|
   spec.name          = 'validation_examples_matcher'
   spec.version       = ValidationExamplesMatcher::VERSION
-  spec.authors       = ['Hirokazu Nishioka']
+  spec.authors       = ['Hirokazu Nishioka', 'Speee, Inc.']
   spec.email         = ['hiro@nisshiee.org']
 
   spec.summary       = 'Validation matcher with examples for RSpec'
