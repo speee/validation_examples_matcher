@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Validation matcher with examples for RSpec'
   spec.description   = 'validation_examples_matcher provides rspec matcher testing validations with examples.'
-  spec.homepage      = 'https://github.com/nisshiee/validation_examples_matcher'
+  spec.homepage      = 'https://github.com/speee/validation_examples_matcher'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
