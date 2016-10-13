@@ -10,5 +10,5 @@ env:
   - RSPEC_VERSION=3.2.0
   - RSPEC_VERSION=3.3.0
   - RSPEC_VERSION=3.4.0
-  - RSPEC_VERSION=3.5.0.beta4
-before_install: gem install bundler -v 1.11.2
+  - RSPEC_VERSION=3.5.0
+before_install: gem install bundler -v 1.13.3

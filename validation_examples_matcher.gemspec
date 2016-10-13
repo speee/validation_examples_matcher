@@ -22,11 +22,11 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'rspec-expectations', '~> 3.0'
 
-  spec.add_development_dependency 'bundler', '~> 1.11'
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'bundler', '~> 1.13'
+  spec.add_development_dependency 'rake', '~> 11.3'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'simplecov', '>= 0.11.1', '< 0.12.0'
-  spec.add_development_dependency 'activemodel', '~> 4.2.5'
-  spec.add_development_dependency 'pry-byebug', '~> 3.3.0'
-  spec.add_development_dependency 'rubocop', '>= 0.36.0', '< 0.37.0'
+  spec.add_development_dependency 'simplecov', '>= 0.12.0', '< 0.13.0'
+  spec.add_development_dependency 'activemodel', '~> 4.2'
+  spec.add_development_dependency 'pry-byebug', '~> 3.4'
+  spec.add_development_dependency 'rubocop', '>= 0.43.0', '< 0.44.0'
 end
